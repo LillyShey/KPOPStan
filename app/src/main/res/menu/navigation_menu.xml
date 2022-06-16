@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".GroupListActivity">
+    <item
+        android:icon="@android:drawable/ic_menu_sort_alphabetically"
+        android:title="Sorting">
+        <menu>
+            <item
+                android:id="@+id/menu_sortingByName"
+                android:title="By group name"></item>
+
+            <item
+                android:id="@+id/menu_sortingByYear"
+                android:title="By debut year"></item>
+            <item
+                android:id="@+id/menu_sortingByLabel"
+                android:title="By label name"></item>
+            <item
+                android:id="@+id/menu_sortingByMembersCount"
+                android:title="By members count"></item>
+        </menu>
+    </item>
+
+    <item android:title="Filter">
+        <menu>
+
+            <item
+                android:id="@+id/menu_filterByYear"
+                android:title="By debut year"></item>
+
+            <item
+                android:id="@+id/menu_filterByLabel"
+                android:title="By label name"></item>
+
+            <item
+                android:id="@+id/menu_filterByMembersCount"
+                android:title="By members count"></item>
+            <item
+                android:id="@+id/menu_filterByGender"
+                android:title="By gender"></item>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_goToAdminPage"
+        android:title="Go to admin page"></item>
+    <item
+        android:id="@+id/menu_Logout"
+        android:title="Log out"></item>
+</menu>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "931347466881",
+    "firebase_url": "https://kpop-stan-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "kpop-stan",
+    "storage_bucket": "kpop-stan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:931347466881:android:a2681d1cbef62052fe1b80",
+        "android_client_info": {
+          "package_name": "com.example.kpopstan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "931347466881-82sqot5j0f6pb4a39d9muce06oglotkm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAGV3bis7fdKLmR0kqtLWhrRHJesOnxrE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "931347466881-82sqot5j0f6pb4a39d9muce06oglotkm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
